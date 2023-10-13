@@ -1,0 +1,21 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity FF_D is
+port( CLK, RESET, D: in std_logic;
+		Q            : out std_logic);
+end entity FF_D;
+
+architecture behai of FF_D is
+begin
+	process(CLK, RESET) is
+		if(CLK'event and CLK = '1') then
+			if (RESET = '1') then
+				Q <= '0';
+				else
+				Q <= D;
+			end if;
+		end if;
+	end process;
+end architecture behai;
+	

@@ -1,0 +1,237 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/PROYECTO_QUARTUS/pruebas_maquinas/simulation/qsim
+Eff_d
+Z1 w1694979007
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 JX^YokbeM8:bL?Pj@;1Jd1
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Lf2433zWNi5^RHNT=BHD60
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+R0
+Z10 8maquina.vho
+Z11 Fmaquina.vho
+l0
+L80
+VbPE]boCO>:f92c8G7g;@Z2
+!s100 YlTQfG5]bggdRDg>F^JP21
+Z12 OV;C;10.5b;63
+32
+!s110 1694979011
+!i10b 1
+Z13 !s108 1694979011.000000
+Z14 !s90 -work|work|maquina.vho|
+Z15 !s107 maquina.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 4 ff_d 0 22 bPE]boCO>:f92c8G7g;@Z2
+l124
+L96
+V][MBhFlZD_=VSRIlMFIDH3
+!s100 INazgQID68HKV30P0eUaN2
+R12
+32
+Z18 !s110 1694979012
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eff_d_vhd_vec_tst
+Z19 w1694979006
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32
+VUW4:>lj;b_L8mUT`TUo_f0
+!s100 o9;[@kE3TifDzWdE6BWDj1
+R12
+32
+R18
+!i10b 1
+Z22 !s108 1694979012.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aff_d_arch
+R7
+R8
+DEx4 work 16 ff_d_vhd_vec_tst 0 22 UW4:>lj;b_L8mUT`TUo_f0
+l49
+L34
+V]l]FWC>aR6`:Ak=H^73YJ0
+!s100 HLnFQ@AW:BLR]UaBZQ5]M1
+R12
+32
+R18
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
+Ehard_block
+Z25 w1694985241
+R4
+R2
+R6
+R7
+R8
+R3
+R0
+R10
+R11
+l0
+L35
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+R12
+32
+Z26 !s110 1694985242
+!i10b 1
+Z27 !s108 1694985242.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+l65
+L51
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R12
+32
+R26
+!i10b 1
+R27
+R14
+R15
+!i113 1
+R16
+R17
+Emaquina_mealy_boton
+R25
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R0
+R10
+R11
+l0
+L80
+V:T4G8;K:JMmLV@=86JLNA1
+!s100 B2aC8KAfdhj?PQUDb4Vj40
+R12
+32
+R26
+!i10b 1
+R27
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 19 maquina_mealy_boton 0 22 :T4G8;K:JMmLV@=86JLNA1
+l135
+L96
+VQ>dTjFU=6LXc3cK=J^j]01
+!s100 zVJJo^kkldg<Q5k_UJABG1
+R12
+32
+R26
+!i10b 1
+R27
+R14
+R15
+!i113 1
+R16
+R17
+Emaquina_mealy_boton_vhd_vec_tst
+Z28 w1694985240
+R7
+R8
+R0
+Z29 8Waveform2.vwf.vht
+Z30 FWaveform2.vwf.vht
+l0
+L32
+VRjG0NW4M3`zoL4NHb^<dH3
+!s100 c<ecG;TY<RkB8dD<z^zdA2
+R12
+32
+R26
+!i10b 1
+R27
+Z31 !s90 -work|work|Waveform2.vwf.vht|
+Z32 !s107 Waveform2.vwf.vht|
+!i113 1
+R16
+R17
+Amaquina_mealy_boton_arch
+R7
+R8
+Z33 DEx4 work 31 maquina_mealy_boton_vhd_vec_tst 0 22 RjG0NW4M3`zoL4NHb^<dH3
+l49
+L34
+V37zU:?;R[UZEFQ1?b`Fc73
+!s100 Jad1MoY@[FRJ_mEN=glk22
+R12
+32
+R26
+!i10b 1
+R27
+R31
+R32
+!i113 1
+R16
+R17

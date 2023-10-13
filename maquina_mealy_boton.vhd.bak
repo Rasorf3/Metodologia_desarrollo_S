@@ -1,0 +1,22 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity maquina_mealy_boton is
+port( X, CLK, RESET : in std_logic;
+		z             : out std_logic);
+end entity maquina_mealy_boton;
+
+architecture behai of maquina_mealy_boton is
+	type maquina is (s0, s1, s2, s3);
+	signal PS, NS : maquina;
+begin
+	proceso1 : process(CLK, RESET) is
+	begin
+		if (RESET = '0') then
+			z <= '0';
+			else if (CLK'event and CLK = '1') then
+			PS <= NS;
+		end if;
+	end process proceso1;
+	
+end architecture behai;
